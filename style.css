@@ -1,0 +1,693 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+body {
+    background-color: #282A35;
+}
+
+.navbar1{
+    background-color: #E7E9EB;
+    overflow: hidden;
+}
+.navbar1 ul li{
+    list-style-type: none;
+    float: left;
+    padding: 15px 15px 15px;
+    margin-bottom: -15px;
+}
+.navbar1 ul li.split{
+    float: right;
+    margin-top: -10px;
+}
+.navbar1 ul li:hover{
+    background-color: #04AA6D;
+    color: white;
+    cursor: pointer;
+}
+.split{
+    background-color: #E7E9EB !important;
+}
+
+.bootcamp,
+.spaces {
+    border: none;
+    padding: 10px 12px;
+   background-color: #E7E9EB;
+}
+
+.bootcamp:hover,
+.spaces:hover {
+    background-color: lightgrey;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.signup {
+    background-color: green;
+    border: none;
+    border-radius: 25px;
+    width: 90px;
+    padding: 7px;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.login {
+    background-color: rgb(184, 255, 184);
+    padding: 7px 7px 7px 15px;
+    border: none;
+    border-radius: 25px;
+    width: 100px;
+    margin-left: -35px;
+}
+
+.login:hover {
+    background-color: green;
+    cursor: pointer;
+}
+
+
+
+.navbar2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar2 p {
+    padding: 5px 15px 10px;
+    color: white;
+}
+
+.navbar2 p:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+
+
+.main_section {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    margin: 100px 0px;
+}
+
+.main_section input {
+    width: 450px;
+    padding: 15px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    border: none;
+    position: relative;
+    right: 50px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.main_section button {
+    background-color: green;
+    padding: 15px 50px;
+    border: none;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    position: relative;
+    right: 55px;
+}
+
+.main_section a {
+    color: white;
+    margin: 100px;
+    font-size: 25px;
+    line-height: 100px;
+    font-weight: 700;
+}
+
+
+
+
+.html,
+.css,
+.javascript,
+.python,
+.sql {
+    background-color: rgb(213, 255, 241);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.html>div,
+.css>div,
+.javascript>div,
+.python>div,
+.sql>div {
+    display: flex;
+    margin: 100px 50px;
+}
+
+.html button,
+.css button,
+.javascript button,
+.python button,
+.sql button {
+    opacity: 0.8;
+}
+
+.html button:hover,
+.css button:hover,
+.javascript button:hover .python button:hover,
+.sql button:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.content {
+    margin: 40px;
+}
+
+.learn {
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 15px 0px;
+    margin: 10px 0px;
+    width: 250px;
+}
+
+.video {
+    background-color: rgb(255, 255, 124);
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 15px 0px;
+    margin: 10px 0px;
+    width: 250px;
+}
+
+.refernce {
+    background-color: #282A35;
+    color: white;
+    border: none;
+
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 15px 0px;
+    margin: 10px 0px;
+    width: 250px;
+}
+
+.certified {
+    background-color: rgb(253, 134, 158);
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 15px 0px;
+    margin: 10px 0px;
+    width: 250px;
+}
+
+.image {
+    background-color: lightgray;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+}
+
+.image img {
+    margin: 25px 0px;
+}
+
+.tryit {
+    border: none;
+    padding: 15px 50px;
+    margin: 25px;
+    border-radius: 30px;
+    background-color: green;
+    font-size: 20px;
+}
+
+.css {
+    background-color: rgb(253, 253, 156);
+}
+
+.javascript {
+    background-color: #282A35;
+}
+
+.javascript .refernce {
+    background-color: lightgray;
+    color: black;
+}
+
+.python {
+    background-color: rgb(198, 198, 190);
+}
+
+.sql {
+    background-color: rgb(196, 255, 235);
+}
+
+.section1 {
+    background-color: #282A35;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.php,
+.jquery,
+.java,
+.cplus,
+.c,
+.csha {
+    background-color: pink;
+    width: 45%;
+    line-height: 75px;
+    padding: 25px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 50px 35px;
+}
+
+.learn_ {
+    background-color: #282A35;
+    color: white;
+    border: none;
+    padding: px;
+    width: 200px;
+    border-radius: 30px;
+    /* font-size: 15px; */
+    margin: 35px;
+    opacity: 0.9;
+}
+
+.learn_:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+.jquery {
+    background-color: rgb(253, 253, 156);
+}
+
+.java {
+    background-color: rgb(198, 198, 190);
+}
+
+.cplus {
+    background-color: rgb(196, 255, 235);
+}
+
+.c {
+    background-color: pink;
+    opacity: 0.9;
+}
+
+.csha {
+    background-color: rgb(253, 253, 156);
+    opacity: 0.9;
+}
+
+.c:hover,
+.csha:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+.section2 {
+    background-color: #282A35;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+    gap: 75px;
+    margin: 50px;
+}
+
+.section2 div {
+    padding: 20px 20px;
+    width: 300px;
+    border-radius: 5px;
+    text-align: center;
+    opacity: 0.8;
+}
+
+.section2 div:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.r {
+    background-color: #F3ECEA;
+}
+
+.kotlin {
+    background-color: #D9EEE1;
+}
+
+.nodejs {
+    background-color: #96D4D4;
+}
+
+.react {
+    background-color: #FFC0C7;
+}
+
+.json {
+    background-color: #FFF4A3;
+}
+
+.section3 {
+    display: flex;
+    justify-content: space-around;
+    margin: 25px 30px 50px;
+    flex-wrap: wrap;
+}
+
+.section3 div {
+    width: 700px;
+    padding: 40px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 25px;
+    opacity: 0.9;
+}
+.section3 div:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+.excel {
+    background-color: #96D4D4;
+}
+
+.sheets {
+    background-color: #FFF4A3;
+}
+
+.ml {
+    background-color: #FFC0C7;
+}
+
+.ai {
+    background-color: #F3ECEA;
+}
+
+
+
+
+.editor {
+    color: white;
+    text-align: center;
+    margin: 100px;
+}
+
+.editor_video {
+    text-align: center;
+}
+
+.editor_video+.tryit {
+    margin-left: 340px;
+    border-radius: 5px;
+    color: white;
+    background-color: #04AA6D;
+}
+
+.editor_video~.video {
+    margin-left: 340px;
+    width: 500px;
+    border-radius: 5px;
+}
+
+.learnmore {
+    background-color: #04AA6D;
+    color: white;
+    padding: 15px;
+    border: none;
+    font-size: 25px;
+    width: 300px;
+    border-radius: 35px;
+    opacity: 0.8;
+}
+
+.learnmore:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+
+.learning {
+    background-color: #D9EEE1;
+    text-align: center;
+    padding: 100px;
+}
+
+.section4 {
+    text-align: center;
+    padding: 100px;
+    color: white;
+    line-height: 50px;
+    letter-spacing: 2px;
+}
+
+.section4>div {
+    text-align: left;
+    margin-left: 38%;
+}
+
+
+
+.section5 {
+    background-color: #F3ECEA;
+    padding: 100px;
+    text-align: center;
+}
+
+.section5 img {
+    margin: 50px;
+}
+
+
+.section6 {
+    background-color: #96D4D4;
+    padding: 75px;
+    text-align: center;
+}
+
+.section6 button {
+    background-color: #282A35;
+    color: white;
+    padding: 15px;
+    border: none;
+    width: 170px;
+    margin: 30px;
+    border-radius: 25px;
+    opacity: 0.8;
+}
+
+.section6 button:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+.section6 img:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+
+.section7{
+    padding: 100px;
+    color: white;
+    text-align: center;
+}
+.section7>div{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+.exercises{
+    background-color: #04AA6D;
+    color: white;
+    padding: 75px;
+    text-align: center;
+    width: 650px;
+    border-radius: 5px;
+    opacity: 0.8;
+}
+.quiz{
+    background-color: #FFF4A3;
+    padding: 75px;
+    text-align: center;
+    width: 650px;
+    border-radius: 5px;
+    opacity: 0.8;
+}
+.exercises,.quiz:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+.section8{
+    background-color: #E7E9EB;
+    padding: 100px;
+    text-align: center;
+}
+.section8 img{
+    margin: 50px;
+}
+.section8 img:hover{
+    cursor: pointer;
+}
+.browse{
+    background-color: #282A35;
+    color: white;
+    width: 800px;
+    padding: 15px;
+    border-radius: 25px;
+    font-size: 25px;
+    opacity: 0.9;
+    border: none;
+}
+.browse:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.section9{
+    color: #FFC0C7;
+    padding: 75px;
+    line-height: 100px;
+}
+.getstarted{
+    background-color: #04AA6D;
+    color: white;
+    border: none;
+    font-size: 20px;
+    padding: 15px;
+    width: 200px;
+    border-radius: 30px;
+    opacity: 0.9;
+}
+.getstarted:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+.section10{
+    text-align: center;
+    background-color: #E7E9EB;
+    padding: 100px;
+    line-height: 50px;
+}
+.learnhowto{
+    background-color: #282A35;
+    color: white;
+    width: 450px;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+}
+.learnhowto:hover{
+    background-color: #04AA6D;
+    cursor: pointer;
+}
+
+.gopika{
+    width: 900px;
+    height: 600px;
+}
+.gopi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+
+.section11{
+    text-align: center;
+    background-color: #E7E9EB;
+
+}
+.section11 i{
+    margin: 20px;
+    font-size: 30px;
+}
+.section11 i:hover{
+    background-color: #282A35;
+    padding: 5px;
+    border-radius: 2px;
+    cursor: pointer;
+    color: white;
+    transition: 0.5s;
+}
+
+.section11 div {
+    display: flex;
+    justify-content: space-around;
+
+}
+.section11 button{
+    background-color: #282A35;
+    color: white;
+    padding: 15px;
+    font-size: 15px;
+    border: none;
+    width: 250px;
+    margin:50px 0px ;
+    border-radius: 15px;
+}
+.section11 button:hover{
+    background-color:#04AA6D;
+    cursor: pointer;
+}
+
+
+.footer{
+    background-color: #E7E9EB;
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+}
+.footer div{
+    text-align: center;
+    line-height: 15px;
+}
+.footer p:hover{
+    color: #04AA6D;
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+.footer_below{
+    background-color:#E7E9EB;
+    color: rgb(133, 133, 133);
+    padding: 0px 100px;
+}
+.footer_below+div{
+    background-color: #E7E9EB;
+    text-align: center;
+    padding: 25px;
+    margin-top: -20px;
+}
+.footer_below+div:hover{
+    cursor: pointer;
+}
